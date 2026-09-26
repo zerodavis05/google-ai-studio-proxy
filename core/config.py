@@ -25,7 +25,7 @@ class Config:
     NGROK_URL = os.getenv("NGROK_URL", "")
 
     # Google AI Model Settings
-    MODEL = os.getenv("MODEL", "gemma-4-31b-it")
+    MODEL = os.getenv("MODEL", "gemini-3.8-flash")
     TEMPERATURE = float(os.getenv("TEMPERATURE", "0.8"))
     TOP_P = float(os.getenv("TOP_P", "0.95"))
     TOP_K = int(os.getenv("TOP_K", "40"))
